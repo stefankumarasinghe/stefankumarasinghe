@@ -6,23 +6,20 @@ I enjoy designing scalable, reliable systems with clean architecture and strong 
 
 ## Focus
 
-• Distributed systems  
-• Backend architecture  
-• Observability platforms  
-• High-performance APIs  
-• Scalable infrastructure  
+- Distributed systems  
+- Backend architecture  
+- Observability platforms  
+- High-performance APIs  
+- Scalable infrastructure  
 
-## Projects
+## Current Active Projects
 
-• beObservant — Observability control plane  
-• beCertain — Root cause analysis engine  
-• beNotified — Alerting and notification system  
-• CodeMasterPro — Developer tooling platform  
+- [BeObservant](https://github.com/StefanKumarasinghe/beobservant) — Observability control plane *(currently private)*  
+- [BeCertain](https://github.com/StefanKumarasinghe/becertain) — Root cause analysis engine  
+- [BeNotified](https://github.com/StefanKumarasinghe/benotified) — Alerting and notification system  
+- [CodeMasterPro](https://github.com/StefanKumarasinghe/codemasterpro) — Developer tooling platform  
 
 ## Links
 
-LinkedIn  
-https://www.linkedin.com/in/stefan-kumarasinghe
-
-YouTube  
-https://www.youtube.com/channel/UCdsdjgI9tb4U7u7o_MDIGhA
+- [LinkedIn](https://www.linkedin.com/in/stefan-kumarasinghe)  
+- [YouTube](https://www.youtube.com/channel/UCdsdjgI9tb4U7u7o_MDIGhA)
