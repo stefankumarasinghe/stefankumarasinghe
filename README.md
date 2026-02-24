@@ -14,10 +14,10 @@ I enjoy designing scalable, reliable systems with clean architecture and strong 
 
 ## Current Active Projects
 
-- [BeObservant](https://github.com/StefanKumarasinghe/beobservant) — Observability control plane *(currently private)*  
-- [BeCertain](https://github.com/StefanKumarasinghe/becertain) — Root cause analysis engine  
-- [BeNotified](https://github.com/StefanKumarasinghe/benotified) — Alerting and notification system  
-- [CodeMasterPro](https://github.com/StefanKumarasinghe/codemasterpro) — Developer tooling platform  
+- [BeObservant](https://github.com/stefankumarasinghe/beobservant) — Observability control plane *(currently private)*  
+- [BeCertain](https://github.com/stefankumarasinghe/becertain) — Root cause analysis engine  
+- [BeNotified](https://github.com/stefankumarasinghe/benotified) — Alerting and notification system  
+- [CodeMasterPro](https://github.com/stefankumarasinghe/codemasterpro) — Developer tooling platform  
 
 ## Links
 
