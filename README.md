@@ -1,6 +1,6 @@
 # 👨‍💻 Stefan Ralph Kumarasinghe
 
-### **Backend Engineer & Distributed Systems Architect**
+### **Software Engineer & Distributed Systems Architect**
 
 I like building systems that don't just work—they scale, reason, and recover. I thrive when designing complex backend architectures that transform raw telemetry into actionable intelligence. I do like ui as well, so you will see a very consistent ui theme I go for :)
 
@@ -33,8 +33,12 @@ I am currently developing a suite of interconnected observability tools designed
 
 **The Messenger.** An intelligent alerting and incident orchestration service. It manages the lifecycle of an alert—from the moment a threshold is crossed in Mimir to the final resolution note in Jira.
 
+### 🔔 [Ojo](https://github.com/observantio/ojo)
+
+**The agent** While there are plenty of agent, I am trying to create a lightweight agent built using Rust, that directly queries from /proc and windows api and standardizes to opentelemetry format and pushes it to our gateway
 
 ## 📈 Other Active Contributions
 
 * **[CodeMasterPro](https://github.com/stefankumarasinghe/codemasterpro):** A specialized developer tooling platform designed to streamline the local development environment and improve engineering velocity. I did explore the ralph-wiggum principal a while ago, have a look at the code
+
 
