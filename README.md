@@ -1,44 +1,87 @@
 # 👨‍💻 Stefan Ralph Kumarasinghe
 
-### **Software Engineer & Distributed Systems Architect**
+### Software Engineer | Distributed Systems | Observability
 
-I like building systems that don't just work—they scale, reason, and recover. I thrive when designing complex backend architectures that transform raw telemetry into actionable intelligence. I do like ui as well, so you will see a very consistent ui theme I go for :)
+Most of my work sits around backend architecture, observability, and turning raw telemetry into something actually useful. I enjoy working on complex systems where multiple signals need to be correlated and understood, not just collected.
 
-[LinkedIn](https://www.linkedin.com/in/stefan-kumarasinghe) | [YouTube](https://www.youtube.com/channel/UCdsdjgI9tb4U7u7o_MDIGhA) 
+I also care about UI alot...
 
----
-
-## 🛠 High-Level Focus
-
-* **Distributed Systems:** Designing for resilience, consistency, and low-latency.
-* **Observability Stack:** Deep integration with the LGTM stack (Loki, Grafana, Tempo, Mimir).
-* **AI-Native Engineering:** Building reasoning engines for automated Root Cause Analysis (RCA).
-* **Infrastructure as Code:** Orchestrating scalable, cloud-native environments.
+[LinkedIn](https://www.linkedin.com/in/stefan-kumarasinghe) • [YouTube](https://www.youtube.com/channel/UCdsdjgI9tb4U7u7o_MDIGhA)
 
 ---
 
-## 🚀 The "Be" Ecosystem
+## 🛠 What I Focus On
 
-I am currently developing a suite of interconnected observability tools designed to eliminate the friction in modern SRE workflows.
+* **Distributed Systems** — reliability, failure handling, and low-latency design
+* **Observability** — deep work with LGTM (Loki, Grafana, Tempo, Mimir)
+* **AI + Systems** — automated RCA, anomaly detection, reasoning over telemetry
 
-### 🔭 [BeObservant](https://github.com/observantio/beobservant)
+---
 
-**The Control Plane.** A unified platform for metrics, logs, traces, and alerts. It acts as the "Single Pane of Glass" for distributed systems, enforcing RBAC and multi-tenancy across the entire LGTM stack.
+# 🚀 Observantio
 
-### 🧠 [BeCertain](https://github.com/observantio/becertain)
+I’m currently building **Observantio**, a set of tools focused on simplifying modern observability.
 
-**The Analyst.** A Python-based reasoning engine that processes telemetry data to provide automated Root Cause Analysis (RCA), anomaly detection, and predictive forecasting.
+The goal is simple:
 
-### 🔔 [BeNotified](https://github.com/observantio/benotified)
+> Take raw logs, metrics, and traces — and turn them into clear answers.
 
-**The Messenger.** An intelligent alerting and incident orchestration service. It manages the lifecycle of an alert—from the moment a threshold is crossed in Mimir to the final resolution note in Jira.
+Everything is built on open-source tooling, so you stay in control of your data.
 
-### 🔔 [Ojo](https://github.com/observantio/ojo)
+---
 
-**The agent** While there are plenty of agent, I am trying to create a lightweight agent built using Rust, that directly queries from /proc and windows api and standardizes to opentelemetry format and pushes it to our gateway
+## 🏛 Projects
 
-## 📈 Other Active Contributions
+### 🛰 [Watchdog - Control Plane](https://github.com/observantio/watchdog)
 
-* **[CodeMasterPro](https://github.com/stefankumarasinghe/codemasterpro):** A specialized developer tooling platform designed to streamline the local development environment and improve engineering velocity. I did explore the ralph-wiggum principal a while ago, have a look at the code
+Control plane for the stack.
 
+* Unified view across logs, metrics, traces, alerts
+* RBAC + multi-tenancy
+* Removes the need to jump between tools
+
+---
+
+### 🧠 [Resolver - RCA Engine](https://github.com/observantio/resolver)
+
+RCA + reasoning engine.
+
+* Correlates signals across Loki, Tempo, and Mimir
+* Finds the likely root cause instead of just showing symptoms
+* Supports anomaly detection and forecasting
+
+---
+
+### 🔔 [Notifier - Alerting and Incident Management](https://github.com/observantio/notifier)
+
+Incident and alerting system.
+
+* Alert routing and lifecycle management
+* Team collaboration + Jira integration
+* Connects system signals to human response
+
+---
+
+### 🤖 [Ojo - Lightweight but Rich Metric Collector](https://github.com/observantio/ojo)
+
+Lightweight telemetry agent (Rust).
+
+* Reads directly from `/proc` and Windows APIs
+* Outputs OpenTelemetry (OTLP)
+* Focused on performance and minimal overhead
+* Solaris support in progress
+
+---
+
+## 📈 Other Work
+
+### ⚙️ [CodeMasterPro](https://github.com/stefankumarasinghe/codemasterpro)
+
+It uses langchain, but I soon got bored of the project.
+
+---
+
+## 🛠 Tech I Use
+
+* **Languages:** Python, TypeScript/Javascript
 
